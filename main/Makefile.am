@@ -3,6 +3,7 @@ SUBDIRS =  daq \
 	Scripts \
 	Utility \
 	factories \
+	Dictionary \
 	Display \
 	Tape \
 	EventSource \
