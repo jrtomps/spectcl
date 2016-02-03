@@ -68,7 +68,7 @@ libTclGrammerCommands_la_SOURCES = StopRun.cpp StartRun.cpp \
 	SpecTcl.cpp CFoldCommand.cpp CProjectionCommand.cpp CFitCommand.cpp \
 	IntegrateCommand.cpp RingFormatCommand.cpp VersionCommand.cpp \
 	SContentsCommand.cpp CSpectrumStatsCommand.cpp SpecTclDisplayManager.cpp \
-	XamineEventHandler.cpp
+	XamineEventHandler.cpp FilterEventProcess.cpp
 
 
 include_HEADERS = AppInit.h ApplyCommand.h AttachCommand.h BindCommand.h \
@@ -85,7 +85,7 @@ include_HEADERS = AppInit.h ApplyCommand.h AttachCommand.h BindCommand.h \
 	SpecTcl.h CFoldCommand.h CProjectionCommand.h CFitCommand.h \
 	IntegrateCommand.h VersionCommand.h SContentsCommand.h \
 	CSpectrumStatsCommand.h SpecTclDisplayManager.h \
-	XamineEventHandler.h
+	XamineEventHandler.h FilterEventProcessor.h
 
 
 

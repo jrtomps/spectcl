@@ -21,9 +21,9 @@
 
 using namespace std;
 
-class SpectrumPackageTests : public CppUnit::TestFixture
+class SpectraLocalDisplayTests : public CppUnit::TestFixture
 {
-    CPPUNIT_TEST_SUITE(SpectrumPackageTests);
+    CPPUNIT_TEST_SUITE(SpectraLocalDisplayTests);
     CPPUNIT_TEST(create_0);
     CPPUNIT_TEST(bindAll_0);
     CPPUNIT_TEST(bindList_0);
@@ -325,5 +325,5 @@ public:
 
 };
 
-CPPUNIT_TEST_SUITE_REGISTRATION(SpectrumPackageTests);
+CPPUNIT_TEST_SUITE_REGISTRATION(SpectraLocalDisplayTests);
 
